@@ -4306,6 +4306,7 @@ fieldset:disabled .btn {
 }
 
 .navbar {
+
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
     --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
