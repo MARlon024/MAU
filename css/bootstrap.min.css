@@ -2402,8 +2402,7 @@ progress {
 }
 
 .form-text {
-    position: relative;
-    transform: translate(445px, 4px);
+    text-align: center;
     margin-top: .25rem;
     font-size: .875em;
     color: var(--bs-secondary-color)
@@ -2751,8 +2750,7 @@ textarea.form-control-lg {
 .form-check-input[type=checkbox] {
     display: flex;
     margin: 0 auto;
-    position: relative;
-    transform: translate(-245px, 19px);
+    text-align: center;
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -4308,7 +4306,8 @@ fieldset:disabled .btn {
 }
 
 .navbar {
-    --bs-navbar-padding-x: 860px;
+
+    --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
     --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
     --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
